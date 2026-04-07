@@ -1,6 +1,10 @@
-# Olá, sou Gabriel Fernandes 👋
+# Olá, sou Gabriel Henriques Fernandes 👋
 
-Estudante de **Ciências Sociais** (7º período) na UFMG, em transição para a área de dados. Combino formação analítica em pesquisa quantitativa e qualitativa com ferramentas técnicas de BI e análise de dados.
+Estudante de **Ciências Sociais** (7º período) na UFMG, em transição para a área de Data Analytics e BI. 
+
+Minha trajetória me deu uma visão dupla: a formação em ciências humanas me ensinou a ser crítico, formular hipóteses e buscar evidências; a prática técnica me ensinou a limpar dados sujos, modelar informações e fazer storytelling. Mais do que tratar dados apenas como números, trabalho com eles como evidências — estruturando bases, validando consistência e extraindo padrões relevantes para o problema de negócio. 
+
+Na prática de dados, isso significa ir além do dashboard: construo pipelines ETL em R para domar bases governamentais com baixa padronização, projeto modelos relacionais (Star Schema) para garantir performance e aplico auditorias de dados — transformando números brutos em evidências confiáveis.
 
 📍 Belo Horizonte, MG &nbsp;|&nbsp; 🎓 FAFICH/UFMG &nbsp;|&nbsp; 📅 Formatura prevista: 2026
 
@@ -18,9 +22,9 @@ Estudante de **Ciências Sociais** (7º período) na UFMG, em transição para a
 
 ## 📌 Projeto em destaque
 
-### 🏛️ [Observatório de Emendas Parlamentares Individuais](https://github.com/SEU_USERNAME/observatorio-emendas-parlamentares)
+### 🏛️ [Observatório de Emendas Parlamentares Individuais](https://github.com/gabrielhefernandes/observatorio-emendas-parlamentares)
 
-Painel de BI desenvolvido em Power BI com modelagem dimensional em R, cobrindo **657 mil registros** de execução orçamentária de deputados federais entre 2015 e 2026.
+Pipeline de BI completo (657k linhas) desenvolvido para a diretoria da UFMG. Engloba extração de dados do SIGA Senado, tratamento avançado de textuais em R, modelagem Star Schema e validação de governança de dados (R$ 122 Bi auditados)
 
 `Power BI` `R` `Star Schema` `DAX` `SIGA Senado` `IBGE`
 
@@ -37,4 +41,4 @@ Painel de BI desenvolvido em Power BI com modelagem dimensional em R, cobrindo *
 ## 📬 Contato
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-henriques-fernandes/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:gabrielhefernandes2@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:gabrielhefernandes@gmail.com)

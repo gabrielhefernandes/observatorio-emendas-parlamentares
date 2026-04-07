@@ -1,6 +1,6 @@
 # 🏛️ Observatório de Emendas Parlamentares Individuais
 
-> **Painel de Business Intelligence** para análise da execução orçamentária de emendas parlamentares individuais de deputados federais brasileiros — desenvolvido para a Faculdade de Ciências Econômicas da UFMG (FACE/UFMG).
+> **Painel de Business Intelligence** para análise da execução orçamentária de emendas parlamentares individuais de deputados federais brasileiros — desenvolvido para Universidade Federal de Minas Gerais (UFMG).
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
@@ -11,7 +11,7 @@
 
 ## 📋 Sumário executivo
 
-Emendas parlamentares individuais são o principal mecanismo pelo qual deputados federais alocam recursos públicos diretamente em municípios e políticas específicas. Entre 2015 e 2026, foram executadas **mais de 657 mil transferências**, distribuindo bilhões de reais por todo o território nacional.
+Emendas parlamentares individuais são o principal mecanismo pelo qual deputados federais alocam recursos públicos diretamente em municípios e em pessoas físicas e jurídicas, fazendo uso de políticas específicas. Entre 2015 e 2026, foram executadas **mais de 657 mil transferências**, distribuindo bilhões de reais por todo o território nacional.
 
 **O problema:** os dados estão disponíveis publicamente no SIGA Senado, mas em formato bruto e sem estrutura analítica — impossibilitando que gestores, pesquisadores e a sociedade respondam perguntas simples como *"quanto um deputado específico destinou ao seu próprio estado?"* ou *"quais funções orçamentárias concentram mais recursos?"*.
 
@@ -101,7 +101,7 @@ O campo `mes_execucao` do SIGA retorna `-` para 2024–2026, provavelmente por m
 
 ## 📐 Medidas DAX implementadas
 
-As medidas foram desenvolvidas e auditadas com o **AI Measure Killer**, garantindo que apenas medidas efetivamente utilizadas no dashboard sejam documentadas:
+As medidas foram desenvolvidas e auditadas, garantindo que apenas medidas efetivamente utilizadas no dashboard sejam documentadas:
 
 | Medida | Descrição |
 |---|---|
@@ -162,8 +162,8 @@ observatorio-emendas-parlamentares/
 Estudante de Ciências Sociais (7º período) — FAFICH/UFMG
 Belo Horizonte, MG
 
-[LinkedIn](https://www.linkedin.com/in/gabriel-henriques-fernandes/) · [GitHub](https://github.com/SEU_USERNAME)
+[LinkedIn](https://www.linkedin.com/in/gabriel-henriques-fernandes/) · [GitHub](https://github.com/gabrielhefernandes)
 
 ---
 
-*Projeto desenvolvido para a Faculdade de Ciências Econômicas — UFMG · Março de 2026*
+*Projeto desenvolvido para a Universidade Federal de Minas Gerais — UFMG · Março e Abril de 2026*

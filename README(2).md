@@ -5,14 +5,12 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-orange?style=for-the-badge)
-![Best Practices](https://img.shields.io/badge/Best%20Practices-0%20viola%C3%A7%C3%B5es-brightgreen?style=for-the-badge)
 
 ---
 
 ## Sobre o projeto
 
-Este projeto foi desenvolvido como iniciativa de análise de dados institucionais na **Faculdade de Ciências Econômicas da UFMG**. O objetivo é transformar dados brutos do SIGA Senado em um painel navegável que permite à diretoria acompanhar, de forma visual e interativa, como os recursos de emendas parlamentares individuais são distribuídos no Brasil.
+Este projeto foi desenvolvido como iniciativa de análise de dados institucionais na **Universidade Federal de Minas Gerais**. O objetivo é transformar dados brutos do SIGA Senado em um painel navegável que permite à diretoria acompanhar, de forma visual e interativa, como os recursos de emendas parlamentares individuais são distribuídos no Brasil.
 
 ### Problema resolvido
 
@@ -47,7 +45,7 @@ Não existia ferramenta centralizada que permitisse responder perguntas como:
 | Tratamento e ETL | R (tidyverse, janitor, lubridate, stringi, openxlsx, geobr) |
 | Modelagem dimensional | R — Star Schema com 1 fato e 8 dimensões |
 | Visualização | Power BI Desktop + DAX |
-| Armazenamento | Excel (.xlsx) via OneDrive/SharePoint |
+| Armazenamento | Excel (.xlsx)  |
 | Publicação | Power BI Service |
 
 ---
@@ -128,7 +126,7 @@ Ranking de UOs com segmentação por pesquisa de texto, matriz hierárquica de f
 
 ## Medidas DAX (22 medidas)
 
-Todas as medidas estão centralizadas na tabela `_medidas`. O modelo foi validado com **score zero de violações** nas boas práticas do Tabular Editor.
+Todas as medidas estão centralizadas na tabela `_medidas`. 
 
 <details>
 <summary>Ver todas as medidas e fórmulas</summary>
@@ -216,7 +214,7 @@ observatorio-emendas-parlamentares/
 
 ### Pré-requisitos
 
-- R 4.x com os pacotes: `tidyverse`, `openxlsx`, `writexl`, `janitor`, `lubridate`, `stringi`, `geobr`
+- R 4.x com os pacotes: `tidyverse`, `openxlsx`, `writexl`, `janitor`, `lubridate`, `stringr`, `stringi`, `geobr`
 - Power BI Desktop (versão gratuita disponível em powerbi.microsoft.com)
 - Tabela DTB 2022 do IBGE disponível em: ibge.gov.br/geociencias/organizacao-do-territorio/divisao-territorial
 
@@ -231,7 +229,7 @@ observatorio-emendas-parlamentares/
 
 ### Atualização mensal
 
-Repita os passos 2 a 5 mensalmente. O Power BI Service atualiza automaticamente ao ler o novo arquivo do OneDrive.
+Repita os passos 2 a 5 mensalmente. O Power BI Service atualiza automaticamente ao ler o novo arquivo Excel.
 
 ---
 
@@ -243,23 +241,15 @@ Repita os passos 2 a 5 mensalmente. O Power BI Service atualiza automaticamente 
 
 ---
 
-## Próximos passos
-
-- [ ] Identificar nome exato da UFMG em `favorecido_norm` para ativar medidas em standby
-- [ ] Publicar no Power BI Service para acesso da diretoria via navegador
-- [ ] Criar documentação da rotina mensal de atualização
-- [ ] Monitorar disponibilização do `mes_execucao` para 2024+ no SIGA
-
----
 
 ## Autor
 
 **Gabriel** — Graduando em Ciências Sociais · UFMG  
 Transição para análise de dados com foco em BI, SQL e R.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-henriques-fernandes/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gabrielhefernandes)
 
 ---
 
-*Projeto desenvolvido em março de 2026 · UFMG — Faculdade de Ciências Econômicas*
+*Projeto desenvolvido em março e abril de 2026 · UFMG — Faculdade de Ciências Humanas*

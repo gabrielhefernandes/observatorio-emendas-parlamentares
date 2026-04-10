@@ -11,11 +11,11 @@
 
 ## 📋 Sumário executivo
 
-Emendas parlamentares individuais são o principal mecanismo pelo qual deputados federais alocam recursos públicos diretamente em municípios e em pessoas físicas e jurídicas, fazendo uso de políticas específicas. Entre 2015 e 2026, foram executadas **mais de 657 mil transferências**, distribuindo bilhões de reais por todo o território nacional.
+Emendas parlamentares individuais são o principal mecanismo pelo qual deputados federais alocam recursos públicos diretamente em municípios e em pessoas físicas e jurídicas. Entre 2015 e 2026, foram executadas **21.312 emendas parlamentares individuais distintas**, gerando mais de **657 mil registros de pagamento** e distribuindo **R$ 123,259 bilhões** por todo o território nacional.
 
-**O problema de negócio:** a diretoria de Cooperação Institucional da Universidade Federal de Minas Gerais deseja uma ferramenta que possibilite, de **forma fácil e acessível*, conseguir responder perguntas simples como *"quais deputados específicos colocam mais dinheiro em determinados municípios?"* ou *"quais deputados tipicamente destinam recursos para a educação de nível superior em Minas Gerais?*. A intenção é que a diretoria possa fazer uso dessa ferramenta para que possa contatar esses deputados e estabeelcer projetos e parcerias, sem ter que analisar os dados em formato bruto e sem estrutura analítica fornecidos publicamente em bases de dados como o SIGA Senado.
+**O problema de negócio:** a Diretoria de Cooperação Institucional da UFMG precisa identificar quais deputados federais destinam recursos para municípios e áreas de interesse da universidade — como Educação Superior e Ciência e Tecnologia em Minas Gerais. Sem uma ferramenta analítica, essa informação está dispersa em bases brutas de difícil interpretação, como o SIGA Senado, tornando inviável o mapeamento sistemático de potenciais parceiros institucionais.
 
-**A solução:** este projeto transforma esses dados brutos em um painel interativo que permite analisar **quem destina quanto, para onde e para quê** — com filtragem dinâmica por autor, partido, município, função orçamentária, subfunção orçamentária, órgão superior e suas hierarquias e período de tempo.
+**A solução**: este projeto transforma esses dados em um painel interativo que permite identificar, com poucos cliques, **quem destina quanto, para onde e para quê** — viabilizando que a diretoria priorize contatos e estabeleça parcerias com deputados alinhados às demandas da universidade.
 
 ---
 

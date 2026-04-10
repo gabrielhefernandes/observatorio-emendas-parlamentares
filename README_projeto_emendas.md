@@ -13,9 +13,9 @@
 
 Emendas parlamentares individuais são o principal mecanismo pelo qual deputados federais alocam recursos públicos diretamente em municípios e em pessoas físicas e jurídicas, fazendo uso de políticas específicas. Entre 2015 e 2026, foram executadas **mais de 657 mil transferências**, distribuindo bilhões de reais por todo o território nacional.
 
-**O problema:** os dados estão disponíveis publicamente no SIGA Senado, mas em formato bruto e sem estrutura analítica — impossibilitando que gestores, pesquisadores e a sociedade respondam perguntas simples como *"quanto um deputado específico destinou ao seu próprio estado?"* ou *"quais funções orçamentárias concentram mais recursos?"*.
+**O problema de negócio:** a diretoria de Cooperação Institucional da Universidade Federal de Minas Gerais deseja uma ferramenta que possibilite, de **forma fácil e acessível*, conseguir responder perguntas simples como *"quais deputados específicos colocam mais dinheiro em determinados municípios?"* ou *"quais deputados tipicamente destinam recursos para a educação de nível superior em Minas Gerais?*. A intenção é que a diretoria possa fazer uso dessa ferramenta para que possa contatar esses deputados e estabeelcer projetos e parcerias, sem ter que analisar os dados em formato bruto e sem estrutura analítica fornecidos publicamente em bases de dados como o SIGA Senado.
 
-**A solução:** este projeto transforma esses dados brutos em um painel interativo que permite analisar **quem destina quanto, para onde e para quê** — com filtragem dinâmica por autor, partido, município, função orçamentária e período.
+**A solução:** este projeto transforma esses dados brutos em um painel interativo que permite analisar **quem destina quanto, para onde e para quê** — com filtragem dinâmica por autor, partido, município, função orçamentária, subfunção orçamentária, órgão superior e suas hierarquias e período de tempo.
 
 ---
 
@@ -40,10 +40,7 @@ Emendas parlamentares individuais são o principal mecanismo pelo qual deputados
 | **Apresentação** | Navegação central entre análises |
 | **Autor** | Qual o perfil de distribuição de recursos de um deputado ao longo dos anos? |
 | **Partido** | Como se compara o volume de emendas entre partidos e quem são os principais autores de cada legenda? |
-| **Concentração** | Como os recursos se distribuem geograficamente e por função orçamentária? |
-| **Rastreamento de Emenda** | Quais são todos os detalhes de execução de uma emenda específica? |
-| **Territorialidade** | Como os recursos se distribuem espacialmente pelos municípios brasileiros? |
-| **UO e Função** | Quais unidades orçamentárias e funções concentram mais recursos? |
+| **Distribuição Regional** | Como os deputados distribuem seus recursos espacialmente pelos municípios brasileiros? |
 
 ---
 
@@ -110,24 +107,9 @@ As medidas foram desenvolvidas e auditadas, garantindo que apenas medidas efetiv
 | `Nº Autores` | Contagem distinta de deputados |
 | `Nº Municípios` | Municípios distintos com execução |
 | `Nº UFs` | UFs distintas com execução |
-| `% do Total Pago R$` | Participação no total geral |
-| `% do Total por Partido` | Participação no total por partido |
 | `Ranking Autor` | Ranking por valor pago (RANKX denso) |
-| `Ranking Partido` | Ranking de partidos por valor pago |
 | `Média por Emenda R$` | Valor médio por emenda |
-| `Média por Autor no Partido R$` | Média por deputado dentro do partido |
-| `Total Pago Top Autor R$` | Valor do autor com maior execução |
-| `Total Pago Top UO R$` | Valor da UO com maior execução |
 | `Total Pago Partido R$` | Total por partido (ignora filtros externos) |
-| `Rastreamento Municipio` | Detalha municípios de uma emenda específica |
-| `Rastreamento Funcao` | Detalha funções de uma emenda específica |
-| `Rastreamento Subfuncao` | Detalha subfunções de uma emenda específica |
-| `Rastreamento UO` | Detalha UOs de uma emenda específica |
-| `Rastreamento Orgao Superior` | Detalha órgãos superiores de uma emenda |
-| `Rastreamento Programa` | Detalha programas de uma emenda |
-| `Favorecido Rastreamento` | Lista favorecidos de uma emenda |
-| `Cor da Bolha` | Classifica destino em estado do autor vs. outros |
-| `Filtro_Seguranca_v2` | Garante integridade do filtro cruzado dim_funcao |
 
 > Colunas calculadas: `chave_orgao` (fato e dim), `autor_fato`, `partido_fato`, `uf_fato`, `municipio_favorecido_fato` — criadas para viabilizar filtros cruzados via slicer sem TREATAS.
 

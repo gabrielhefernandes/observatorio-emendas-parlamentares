@@ -123,12 +123,12 @@ observatorio-emendas-parlamentares/
 ├── README.md
 │
 ├── dashboard/
-│   └── emendas_individuais_relatorio.pbix                    # Arquivo fonte (.pbix) do painel interativo desenvolvido no Power BI
+│   └── emendas_individuais_relatorio.pbix                    # (.pbix) do dashboard desenvolvido no Power BI
 │
 ├── scripts/
 │   └── scripts/tratamento_base_emendas_individuais-2026.R    # Script feito em R para tratamento e modelagem dimensional
 └── docs/
-    ├── laudo_validacao.pdf                                   # Procedimentos de certificação da integridade e qualidade dos dados
+    ├── laudo_validacao.pdf                                   # Certificação da integridade e qualidade dos dados
     └── relatorio_tecnico.pdf                                 # Metodologia, escopo e análise dos resultados do projeto
 │
 ├── dados/

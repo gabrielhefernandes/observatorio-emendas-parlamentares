@@ -6,6 +6,7 @@
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 ![Star Schema](https://img.shields.io/badge/Star%20Schema-Dimensional%20Model-blue)
 ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+[![Dados Validados](https://img.shields.io/badge/Dados-23%20testes%20%7C%20100%25%20aprovados-brightgreen)](docs/RELATÓRIO_DE_VALIDAÇÃO_E_CERTIFICAÇÃO_DE_DADOS_observatorio_emendas_parlamentares.pdf)
 
 ---
 

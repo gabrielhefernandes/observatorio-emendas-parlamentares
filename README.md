@@ -122,7 +122,7 @@ observatorio-emendas-parlamentares/
 ├── README.md
 ├── emendas_individuais_relatorio.pbix     # Dashboard Power BI
 ├── scripts/
-│   └── tratamento_emendas.R               # Script de tratamento e modelagem dimensional
+│   └── scripts/tratamento_base_emendas_individuais-2026.R               # Script de tratamento e modelagem dimensional
 └── docs/
     └── relatorio_tecnico.pdf              # Relatório técnico completo do projeto
 ```

@@ -121,11 +121,25 @@ As medidas foram desenvolvidas e auditadas, garantindo que apenas medidas efetiv
 ```
 observatorio-emendas-parlamentares/
 ├── README.md
-├── emendas_individuais_relatorio.pbix     # Dashboard Power BI
+│
+├── dashboard/
+│   └── emendas_individuais_relatorio.pbix                                # Arquivo fonte (`.pbix`) do painel interativo desenvolvido no Power BI.
+│
 ├── scripts/
-│   └── scripts/tratamento_base_emendas_individuais-2026.R               # Script de tratamento e modelagem dimensional
+│   └── scripts/tratamento_base_emendas_individuais-2026.R               # Script feito em R para tratamento e modelagem dimensional
 └── docs/
-    └── relatorio_tecnico.pdf              # Relatório técnico completo do projeto
+    ├── laudo_validacao.pdf                                              # Procedimentos de certificação da integridade e qualidade dos dados. 
+    └── relatorio_tecnico.pdf                                            # Metodologia, escopo e análise dos resultados do projeto.
+│
+├── dados/
+│   └── emendas_individuais_SAMPLE.xlsx                                  # Amostra de 500 registros dos dados tratados
+│
+└── imagens/                                                             # Capturas de tela do dashboard para rápida referência.
+    ├── lamina_apresentacao.png                                          
+    ├── lamina_autor.png
+    ├── lamina_partido.png
+    ├── lamina_distribuicao_regional.png
+
 ```
 
 ---

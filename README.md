@@ -20,6 +20,14 @@ Emendas parlamentares individuais são o principal mecanismo pelo qual deputados
 
 ---
 
+## 🎬 Demonstração
+
+[![Assista à demonstração completa](imagens/lamina_apresentacao.png)](https://youtu.be/kmRy-mHkiUQ)
+
+> Clique na imagem para assistir à demonstração completa no YouTube.
+
+---
+
 ## 📊 Escopo dos dados
 
 | Indicador | Valor |

@@ -129,6 +129,29 @@ observatorio-emendas-parlamentares/
 
 ---
 
+## ⚙️ Como reproduzir
+
+### Pré-requisitos
+- R 4.x com os pacotes: `tidyverse`, `openxlsx`, `writexl`, `janitor`, `lubridate`, `stringr`, `stringi`, `geobr`
+- Power BI Desktop (gratuito em powerbi.microsoft.com)
+- Tabela DTB 2022 do IBGE (ibge.gov.br → Geociências → Organização do território → Estrutura Territorial → Divisão territorial Brasileira)
+
+### Passos
+1. Clone este repositório
+2. Baixe os dados brutos do SIGA Senado com os filtros: **Tipo de autor = Deputado Federal** e **Tipo de emenda = Individual**
+3. Salve o arquivo em `dados/dados_brutos/emendas_individuais/`
+4. Ajuste o nome do arquivo na linha indicada em ``scripts/tratamento_base_emendas_individuais-2026.R``
+5. Execute o script completo no RStudio 
+6. O arquivo `modelo_dimensional_powerbi.xlsx` será gerado em `dados/dados_tratados/`
+7. Abra o `.pbix` no Power BI Desktop e atualize a fonte de dados apontando para o Excel gerado
+
+### Atualização mensal
+Repita os passos 2 a 6 mensalmente. O Power BI Service atualiza automaticamente ao ler o novo arquivo.
+
+> **Nota:** o arquivo `.pbix` no repositório exibirá erro de fonte de dados ao ser aberto sem executar o pipeline acima, pois os dados completos (67 MB) não estão versionados por limitação de tamanho. A pasta `dados/` contém apenas uma amostra de 500 linhas para referência estrutural.
+
+---
+
 ## 🔗 Fonte dos dados
 
 - **SIGA Senado** — [sigabrasil.senado.leg.br](https://www12.senado.leg.br/orcamento/sigabrasil)
